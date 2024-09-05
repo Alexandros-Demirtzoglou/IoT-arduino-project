@@ -1,9 +1,5 @@
 # IoT Temperature and Humidity Monitoring System
 
-![GitHub last commit](https://img.shields.io/github/last-commit/alexdemirtzoglou/iot-temp-humidity)
-![GitHub issues](https://img.shields.io/github/issues/alexdemirtzoglou/iot-temp-humidity)
-![GitHub license](https://img.shields.io/github/license/alexdemirtzoglou/iot-temp-humidity)
-
 ## 🌡️ Project Overview
 
 This project implements an Internet of Things (IoT) system that measures environmental humidity and temperature using a DHT11 sensor. The data is collected by an ESP8266 module (NodeMCU) and uploaded to the Arduino IoT Cloud, making it accessible to users over the internet.
@@ -33,8 +29,6 @@ This project implements an Internet of Things (IoT) system that measures environ
 │   └── components.md      # List of hardware components and specifications
 ├── docs/
 │   └── setup_guide.md     # Step-by-step guide for setting up the project
-├── .gitignore             # Specifies intentionally untracked files to ignore
-├── LICENSE                # License file
 └── README.md              # This file
 ```
 
@@ -58,8 +52,6 @@ This project implements an Internet of Things (IoT) system that measures environ
 4. Configure your WiFi credentials and Arduino IoT Cloud settings
 5. Upload the code to your NodeMCU board
 
-For detailed setup instructions, please refer to [setup_guide.md](docs/setup_guide.md).
-
 ## 📊 Usage
 
 After setting up the hardware and uploading the code:
@@ -68,19 +60,9 @@ After setting up the hardware and uploading the code:
 2. Log in to your Arduino IoT Cloud dashboard
 3. View real-time temperature and humidity data
 
-## 🤝 Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Note: This is a university project and is not licensed for distribution or use outside of academic evaluation.
 
 ## 👤 Author
 
