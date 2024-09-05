@@ -23,10 +23,13 @@ This project implements an Internet of Things (IoT) system that measures environ
 ```
 .
 ├── src/
-│   └── main.ino           # Main Arduino sketch file
-├── hardware/
-│   ├── wiring_diagram.png # Wiring diagram for the project
-│   └── components.md      # List of hardware components and specifications
+│   └── main.ino           # Main Arduino file
+├── hardware/              # Pictures and diagrams
+|   ├── ESP8266_Circuit_Diagram.png
+|   ├── DHT11_Circuit_Diagram.png
+|   ├── ESP8266_wiring.png
+│   ├── DHT11_wiring.jpg                
+│   └── ESP8266_Circuit_Diagram.png     
 ├── docs/
 │   └── setup_guide.md     # Step-by-step guide for setting up the project
 └── README.md              # This file
